@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="styles.css" rel="stylesheet" />
     <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
     <div class="images">
@@ -19,12 +20,13 @@
     </p>
     <h2>주문하기</h2>
     <p>
-      주문자 성함 : <input type="text" placeholder="이름을 입력해 주세요." />
+      주문자 성함 :
+      <input id="name" type="text" placeholder="이름을 입력해 주세요." />
     </p>
 
     <p>
       수량 :
-      <select>
+      <select id="cnt">
         <option>0</option>
         <option>1</option>
         <option>2</option>
@@ -33,9 +35,13 @@
       </select>
     </p>
 
-    <p>주소 : <input type="text" placeholder="주소를 입력해 주세요." /></p>
     <p>
-      전화번호 : <input type="text" placeholder="전화번호를 입력해 주세요." />
+      주소 :
+      <input id="address" type="text" placeholder="주소를 입력해 주세요." />
+    </p>
+    <p>
+      전화번호 :
+      <input id="number" type="text" placeholder="전화번호를 입력해 주세요." />
     </p>
 
     <button class="btn">주문하기</button>
