@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+}
+.title:after {
+  content: "가격: 1 원 / 개";
+  font-size: 16px;
+}
+.btn {
+  background-color: aquamarine;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
