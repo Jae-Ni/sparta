@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kokoa Tribe</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <style>
+      @keyframes squareScale1 {
+        0% {
+          transform: none;
+        }
+        25% {
+          transform: scaleY(3);
+        }
+        50% {
+          transform: none;
+        }
+        100% {
+          transform: none;
+        }
+      }
+
+      html,
+      body {
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: greenyellow;
+      }
+      .container {
+        border: 1px solid red;
+        width: 100px;
+        height: 200px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .box {
+        background-color: white;
+        width: 15px;
+        height: 50px;
+      }
+
+      .box:nth-child(1) {
+        animation: squareScale1 2s infinite;
+      }
+
+      .box:nth-child(2) {
+        animation: squareScale1 2s 0.2s infinite;
+      }
+
+      .box:nth-child(3) {
+        animation: squareScale1 2s 0.4s infinite;
+      }
+
+      .box:nth-child(4) {
+        animation: squareScale1 2s 0.6s infinite;
+      }
+
+      .box:nth-child(5) {
+        animation: squareScale1 2s 0.8s infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>

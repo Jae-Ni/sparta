@@ -19,9 +19,20 @@ function handleClick(event) {
     console.log(adr.value);
     console.log(number.value);
   }
+  $.ajax({
+    type: "GET",
+    url: "https://api.manana.kr/exchange/rate.json",
+    data: {},
+    success: function (response) {
+      const value = response[1]["rate"];
+      console.log(value);
+      $("#money").text(value);
+    },
+  });
 }
 
 function init() {
   btn.addEventListener("click", handleClick);
 }
+
 init();
