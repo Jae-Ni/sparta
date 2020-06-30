@@ -1,0 +1,90 @@
+.box3 {
+  height: 50%;
+  width: 100%;
+  display: flex;
+}
+.input {
+  width: 65%;
+  height: 100%;
+
+  position: relative;
+}
+.bar {
+  position: relative;
+  height: 20px;
+  width: 700px;
+}
+.btn-memoInput-cancel {
+  position: absolute;
+  right: 0;
+}
+.memo_text {
+  width: 700px;
+  height: 70px;
+  font-size: 30px;
+}
+.input_url {
+  width: 700px;
+  height: 30px;
+}
+.input_comment {
+  width: 700px;
+  height: 30px;
+}
+.inputScript {
+  position: absolute;
+  bottom: 10px;
+  border: 1px solid black;
+  padding: 10px;
+}
+.openClose {
+  padding: 15px !important;
+  font-size: 20px !important;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.inputRestore {
+  position: absolute;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 10px 20px 15px 20px;
+  bottom: 0;
+  right: 0;
+  border-radius: 0.5rem;
+}
+.scriptAdd {
+  position: absolute;
+  right: 80px;
+  font-size: 40px !important;
+  top: 11px;
+}
+
+.input-group {
+  margin-top: 10px;
+  width: 100% !important;
+}
+.form-control {
+  padding: 30px 15px 30px 15px !important;
+
+  font-size: 25px !important;
+  height: 100px !important;
+}
+.commentBtn {
+  display: flex;
+  justify-content: space-between;
+}
+.inputBot {
+  height: 340px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.change {
+  width: 530px !important;
+}
+.changeBtn {
+  font-size: 20px !important;
+  padding: 10px 20px 10px 20px !important;
+}

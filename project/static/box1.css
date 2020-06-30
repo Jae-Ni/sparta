@@ -1,0 +1,78 @@
+.box1 {
+  height: 50%;
+  width: 80%;
+  position: relative;
+}
+
+/* .todoBox {
+  height: 100%;
+  border: 1px solid black;
+  margin: 0 100px;
+  border-radius: 30px;
+  position: relative;
+} */
+/* .todoTop {
+  height: 50px;
+  display: flex;
+  position: relative;
+  top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 0.5px solid black;
+} */
+.todoTitle {
+  position: absolute;
+  left: 270px;
+  font-size: 30px;
+}
+.todoBtn {
+  position: absolute;
+  right: 30px;
+}
+.todoList {
+  font-size: 25px;
+  display: block;
+}
+
+.container {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+
+  left: 150px;
+}
+.card {
+  height: 100%;
+  display: flex;
+}
+
+.card-header {
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.card-footer {
+  font-size: 27px !important;
+  position: relative;
+  padding-left: 40px !important;
+}
+
+.cardTop {
+  position: relative;
+}
+.trash {
+  position: absolute !important;
+  right: 30px !important;
+  top: 19px !important;
+}
+
+.todoDel {
+  position: absolute;
+  right: 30px;
+  top: 18px;
+}
+.todoCheck {
+  position: absolute;
+  right: 60px;
+  top: 18px;
+}

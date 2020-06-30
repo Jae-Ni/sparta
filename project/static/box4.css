@@ -1,0 +1,39 @@
+.box4 {
+  height: 50%;
+  position: relative;
+}
+
+#scriptBox {
+  height: 100%;
+  width: 65%;
+}
+
+.save {
+  position: absolute;
+
+  width: 65% !important;
+  left: 0;
+  padding: 0 !important;
+}
+.scriptDel {
+  right: 30px;
+}
+#addMemo {
+  width: 100%;
+  display: block !important;
+}
+#memoList {
+  position: relative;
+  font-size: 30px;
+}
+.M_comment {
+  left: 50px;
+}
+#memoDel {
+  position: absolute;
+  right: 50px;
+}
+
+.scriptDel {
+  margin-top: 10px;
+}

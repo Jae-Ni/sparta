@@ -1,4 +1,5 @@
 {
   "editor.formatOnSave": true,
-  "launch": {}
+  "launch": {},
+  "python.pythonPath": "/Users/jae_ni/Documents/sparta/venv/bin/python3"
 }

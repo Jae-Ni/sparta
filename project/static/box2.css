@@ -1,0 +1,17 @@
+.box2 {
+  height: 50%;
+  margin-top: 1px;
+
+  width: 80%;
+  position: relative;
+}
+.finishDel {
+  position: absolute;
+  right: 30px;
+  top: 18px;
+}
+.backTodo {
+  position: absolute;
+  right: 70px;
+  top: 18px;
+}

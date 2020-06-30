@@ -11,9 +11,17 @@ soup = BeautifulSoup(data.text, 'html.parser')
 
 trs = soup.select('#body-content > div.newest-list > div > table > tbody > tr')
 
-count = 1
+
 for tr in trs:
+    rank = tr.select_one('td.number').text
+    sub_rank = tr.select_one('td.number > span').text
+    rank = rank.replace(sub_rank, '').strip()
     title = tr.select_one('td.info > a.title.ellipsis').text
     name = tr.select_one('td.info > a.artist.ellipsis').text
-    print(count, title.strip(), name)
-    count += 1
+    print(rank, title.strip(), name)
+
+
+# $(document).ready(funtion () {
+#     $('oders-box').html('');
+#     listening();
+# })

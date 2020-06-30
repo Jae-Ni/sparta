@@ -1,0 +1,38 @@
+.clock {
+  width: 35%;
+  height: 100%;
+  padding: 60px;
+}
+.toDay {
+  padding-left: 20px;
+}
+#month {
+  font-size: 30px;
+}
+#date {
+  font-size: 30px;
+}
+#year {
+  font-size: 30px;
+}
+#hours {
+  font-size: 75px;
+}
+#colon {
+  display: inline-block;
+  vertical-align: top;
+  height: 100px;
+  margin-left: 1px;
+  line-height: 94px;
+  font-size: 55px;
+}
+#minutes {
+  font-size: 75px;
+}
+#seconds {
+  font-size: 30px;
+}
+#day {
+  padding-left: 30px;
+  font-size: 30px;
+}
