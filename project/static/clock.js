@@ -19,20 +19,23 @@ var dayList = [
 ];
 function time() {
   var today = new Date();
-  hours.innerHTML = today.getHours();
-  minutes.innerHTML = today.getMinutes();
-  seconds.innerHTML = today.getSeconds();
+
+  var hh = addZero(today.getHours());
+  var mm = addZero(today.getMinutes());
+  var ss = addZero(today.getSeconds());
+
+  hours.innerHTML = hh;
+  minutes.innerHTML = mm;
+  seconds.innerHTML = ss;
 
   day.innerHTML = dayList[today.getDay()];
   year.innerHTML = today.getFullYear();
   month.innerHTML = today.getMonth() + 1;
   date.innerHTML = today.getDate();
 
-  //   clockContainer.innerText =
-  //     `${hours < 10 ? `0${hours}` : hours}:${
-  //       minutes < 10 ? `0${minutes}` : minutes
-  //     }:${seconds < 10 ? `0${seconds}` : seconds}` +
-  //     `${month + 1}월 ${date}일 ${dayList[day]}`;
+  function addZero(num) {
+    return num < 10 ? "0" + num : "" + num;
+  }
 }
 
 function init() {
